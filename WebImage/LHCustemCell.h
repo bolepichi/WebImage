@@ -1,5 +1,5 @@
 //
-//  LHViewController.h
+//  LHCustemCell.h
 //  WebImage
 //
 //  Created by Taagoo'iMac on 14-5-7.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LHViewController : UITableViewController
+@interface LHCustemCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *image;
 
 @end
