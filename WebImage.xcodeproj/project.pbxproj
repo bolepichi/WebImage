@@ -25,6 +25,13 @@
 		186916C6191A0734003529F2 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 186916C5191A0734003529F2 /* placeholder.png */; };
 		186916CB191A3004003529F2 /* RMDisplayLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 186916C8191A3004003529F2 /* RMDisplayLabel.m */; };
 		186916CC191A3004003529F2 /* RMDownloadIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 186916CA191A3004003529F2 /* RMDownloadIndicator.m */; };
+		188118F21922272000B35702 /* MJPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 188118E61922272000B35702 /* MJPhoto.m */; };
+		188118F31922272000B35702 /* MJPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 188118E71922272000B35702 /* MJPhotoBrowser.bundle */; };
+		188118F41922272000B35702 /* MJPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 188118E91922272000B35702 /* MJPhotoBrowser.m */; };
+		188118F51922272000B35702 /* MJPhotoLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188118EB1922272000B35702 /* MJPhotoLoadingView.m */; };
+		188118F61922272000B35702 /* MJPhotoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188118ED1922272000B35702 /* MJPhotoProgressView.m */; };
+		188118F71922272000B35702 /* MJPhotoToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 188118EF1922272000B35702 /* MJPhotoToolbar.m */; };
+		188118F81922272000B35702 /* MJPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188118F11922272000B35702 /* MJPhotoView.m */; };
 		18F7E537191B707C00A60FBF /* LHBigImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7E536191B707C00A60FBF /* LHBigImageViewController.m */; };
 		C6B7D12B348345B1BF0CCFF0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E20B67FC256844419C6323A8 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -66,6 +73,19 @@
 		186916C8191A3004003529F2 /* RMDisplayLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDisplayLabel.m; sourceTree = "<group>"; };
 		186916C9191A3004003529F2 /* RMDownloadIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDownloadIndicator.h; sourceTree = "<group>"; };
 		186916CA191A3004003529F2 /* RMDownloadIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDownloadIndicator.m; sourceTree = "<group>"; };
+		188118E51922272000B35702 /* MJPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhoto.h; sourceTree = "<group>"; };
+		188118E61922272000B35702 /* MJPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhoto.m; sourceTree = "<group>"; };
+		188118E71922272000B35702 /* MJPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJPhotoBrowser.bundle; sourceTree = "<group>"; };
+		188118E81922272000B35702 /* MJPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoBrowser.h; sourceTree = "<group>"; };
+		188118E91922272000B35702 /* MJPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoBrowser.m; sourceTree = "<group>"; };
+		188118EA1922272000B35702 /* MJPhotoLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoLoadingView.h; sourceTree = "<group>"; };
+		188118EB1922272000B35702 /* MJPhotoLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoLoadingView.m; sourceTree = "<group>"; };
+		188118EC1922272000B35702 /* MJPhotoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoProgressView.h; sourceTree = "<group>"; };
+		188118ED1922272000B35702 /* MJPhotoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoProgressView.m; sourceTree = "<group>"; };
+		188118EE1922272000B35702 /* MJPhotoToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoToolbar.h; sourceTree = "<group>"; };
+		188118EF1922272000B35702 /* MJPhotoToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoToolbar.m; sourceTree = "<group>"; };
+		188118F01922272000B35702 /* MJPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoView.h; sourceTree = "<group>"; };
+		188118F11922272000B35702 /* MJPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoView.m; sourceTree = "<group>"; };
 		18F7E535191B707C00A60FBF /* LHBigImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHBigImageViewController.h; sourceTree = "<group>"; };
 		18F7E536191B707C00A60FBF /* LHBigImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHBigImageViewController.m; sourceTree = "<group>"; };
 		CA55D693956A4D0B8D0D759C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -137,6 +157,7 @@
 				1869169D1919FF03003529F2 /* LHAppDelegate.m */,
 				186916A21919FF03003529F2 /* LHViewController.h */,
 				186916A31919FF03003529F2 /* LHViewController.m */,
+				188118E41922272000B35702 /* MJPhotoBrowser */,
 				18F7E535191B707C00A60FBF /* LHBigImageViewController.h */,
 				18F7E536191B707C00A60FBF /* LHBigImageViewController.m */,
 				181D0FAF1920B72500FFA25A /* Main.storyboard */,
@@ -187,6 +208,26 @@
 				186916CA191A3004003529F2 /* RMDownloadIndicator.m */,
 			);
 			name = Components;
+			sourceTree = "<group>";
+		};
+		188118E41922272000B35702 /* MJPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				188118E51922272000B35702 /* MJPhoto.h */,
+				188118E61922272000B35702 /* MJPhoto.m */,
+				188118E71922272000B35702 /* MJPhotoBrowser.bundle */,
+				188118E81922272000B35702 /* MJPhotoBrowser.h */,
+				188118E91922272000B35702 /* MJPhotoBrowser.m */,
+				188118EA1922272000B35702 /* MJPhotoLoadingView.h */,
+				188118EB1922272000B35702 /* MJPhotoLoadingView.m */,
+				188118EC1922272000B35702 /* MJPhotoProgressView.h */,
+				188118ED1922272000B35702 /* MJPhotoProgressView.m */,
+				188118EE1922272000B35702 /* MJPhotoToolbar.h */,
+				188118EF1922272000B35702 /* MJPhotoToolbar.m */,
+				188118F01922272000B35702 /* MJPhotoView.h */,
+				188118F11922272000B35702 /* MJPhotoView.m */,
+			);
+			path = MJPhotoBrowser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +313,7 @@
 				186916C6191A0734003529F2 /* placeholder.png in Resources */,
 				186916981919FF03003529F2 /* InfoPlist.strings in Resources */,
 				181D0FB01920B72500FFA25A /* Main.storyboard in Resources */,
+				188118F31922272000B35702 /* MJPhotoBrowser.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,11 +366,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				186916CC191A3004003529F2 /* RMDownloadIndicator.m in Sources */,
+				188118F81922272000B35702 /* MJPhotoView.m in Sources */,
 				18F7E537191B707C00A60FBF /* LHBigImageViewController.m in Sources */,
 				1869169E1919FF03003529F2 /* LHAppDelegate.m in Sources */,
+				188118F71922272000B35702 /* MJPhotoToolbar.m in Sources */,
 				1869169A1919FF03003529F2 /* main.m in Sources */,
+				188118F41922272000B35702 /* MJPhotoBrowser.m in Sources */,
 				186916CB191A3004003529F2 /* RMDisplayLabel.m in Sources */,
+				188118F21922272000B35702 /* MJPhoto.m in Sources */,
+				188118F51922272000B35702 /* MJPhotoLoadingView.m in Sources */,
 				186916C4191A01FF003529F2 /* LHCustemCell.m in Sources */,
+				188118F61922272000B35702 /* MJPhotoProgressView.m in Sources */,
 				186916A41919FF03003529F2 /* LHViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

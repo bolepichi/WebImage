@@ -47,7 +47,6 @@
         <!--Big Image View Controller - 图片-->
         <scene sceneID="Gbv-OX-72E">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gOY-pk-ocG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="MHm-cg-Bam" customClass="LHBigImageViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xxi-PE-wd9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -68,6 +67,7 @@
                         <outlet property="scrollView" destination="96m-mg-CrM" id="Af3-jR-3pj"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gOY-pk-ocG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="134" y="-52"/>
         </scene>
