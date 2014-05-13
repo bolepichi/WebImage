@@ -8,7 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+
+typedef  void (^TapImage)(UIImage * image);
+
+
 @interface LHCustemCell : UITableViewCell
+
+
 @property (weak, nonatomic) IBOutlet UIImageView *image;
+
+
+@property (nonatomic, copy) TapImage tapGetAImage;
+
 
 @end

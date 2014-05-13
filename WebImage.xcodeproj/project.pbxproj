@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181D0FB01920B72500FFA25A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181D0FAF1920B72500FFA25A /* Main.storyboard */; };
 		1869168E1919FF03003529F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1869168D1919FF03003529F2 /* Foundation.framework */; };
 		186916901919FF03003529F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1869168F1919FF03003529F2 /* CoreGraphics.framework */; };
 		186916921919FF03003529F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186916911919FF03003529F2 /* UIKit.framework */; };
 		186916981919FF03003529F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186916961919FF03003529F2 /* InfoPlist.strings */; };
 		1869169A1919FF03003529F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186916991919FF03003529F2 /* main.m */; };
 		1869169E1919FF03003529F2 /* LHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869169D1919FF03003529F2 /* LHAppDelegate.m */; };
-		186916A11919FF03003529F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1869169F1919FF03003529F2 /* Main.storyboard */; };
 		186916A41919FF03003529F2 /* LHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186916A31919FF03003529F2 /* LHViewController.m */; };
 		186916A61919FF03003529F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186916A51919FF03003529F2 /* Images.xcassets */; };
 		186916AD1919FF03003529F2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186916AC1919FF03003529F2 /* XCTest.framework */; };
@@ -25,6 +25,7 @@
 		186916C6191A0734003529F2 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 186916C5191A0734003529F2 /* placeholder.png */; };
 		186916CB191A3004003529F2 /* RMDisplayLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 186916C8191A3004003529F2 /* RMDisplayLabel.m */; };
 		186916CC191A3004003529F2 /* RMDownloadIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 186916CA191A3004003529F2 /* RMDownloadIndicator.m */; };
+		18F7E537191B707C00A60FBF /* LHBigImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7E536191B707C00A60FBF /* LHBigImageViewController.m */; };
 		C6B7D12B348345B1BF0CCFF0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E20B67FC256844419C6323A8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181D0FAF1920B72500FFA25A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1869168A1919FF03003529F2 /* WebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1869168D1919FF03003529F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1869168F1919FF03003529F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,7 +51,6 @@
 		1869169B1919FF03003529F2 /* WebImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebImage-Prefix.pch"; sourceTree = "<group>"; };
 		1869169C1919FF03003529F2 /* LHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHAppDelegate.h; sourceTree = "<group>"; };
 		1869169D1919FF03003529F2 /* LHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHAppDelegate.m; sourceTree = "<group>"; };
-		186916A01919FF03003529F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		186916A21919FF03003529F2 /* LHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHViewController.h; sourceTree = "<group>"; };
 		186916A31919FF03003529F2 /* LHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHViewController.m; sourceTree = "<group>"; };
 		186916A51919FF03003529F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -65,6 +66,8 @@
 		186916C8191A3004003529F2 /* RMDisplayLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDisplayLabel.m; sourceTree = "<group>"; };
 		186916C9191A3004003529F2 /* RMDownloadIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDownloadIndicator.h; sourceTree = "<group>"; };
 		186916CA191A3004003529F2 /* RMDownloadIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDownloadIndicator.m; sourceTree = "<group>"; };
+		18F7E535191B707C00A60FBF /* LHBigImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHBigImageViewController.h; sourceTree = "<group>"; };
+		18F7E536191B707C00A60FBF /* LHBigImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHBigImageViewController.m; sourceTree = "<group>"; };
 		CA55D693956A4D0B8D0D759C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		E20B67FC256844419C6323A8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,9 +135,11 @@
 				186916C5191A0734003529F2 /* placeholder.png */,
 				1869169C1919FF03003529F2 /* LHAppDelegate.h */,
 				1869169D1919FF03003529F2 /* LHAppDelegate.m */,
-				1869169F1919FF03003529F2 /* Main.storyboard */,
 				186916A21919FF03003529F2 /* LHViewController.h */,
 				186916A31919FF03003529F2 /* LHViewController.m */,
+				18F7E535191B707C00A60FBF /* LHBigImageViewController.h */,
+				18F7E536191B707C00A60FBF /* LHBigImageViewController.m */,
+				181D0FAF1920B72500FFA25A /* Main.storyboard */,
 				186916C2191A01FF003529F2 /* LHCustemCell.h */,
 				186916C3191A01FF003529F2 /* LHCustemCell.m */,
 				186916CD191A3012003529F2 /* Components */,
@@ -266,7 +271,7 @@
 				186916A61919FF03003529F2 /* Images.xcassets in Resources */,
 				186916C6191A0734003529F2 /* placeholder.png in Resources */,
 				186916981919FF03003529F2 /* InfoPlist.strings in Resources */,
-				186916A11919FF03003529F2 /* Main.storyboard in Resources */,
+				181D0FB01920B72500FFA25A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				186916CC191A3004003529F2 /* RMDownloadIndicator.m in Sources */,
+				18F7E537191B707C00A60FBF /* LHBigImageViewController.m in Sources */,
 				1869169E1919FF03003529F2 /* LHAppDelegate.m in Sources */,
 				1869169A1919FF03003529F2 /* main.m in Sources */,
 				186916CB191A3004003529F2 /* RMDisplayLabel.m in Sources */,
@@ -352,14 +358,6 @@
 				186916971919FF03003529F2 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1869169F1919FF03003529F2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				186916A01919FF03003529F2 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		186916B51919FF03003529F2 /* InfoPlist.strings */ = {

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4A90F87F-3D14-419F-9646-44081104978F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WebImage</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5E6BD9BD-A9DF-4015-8223-D546DDD53A5D</key>
+		<string>https://github.com/lesliehan9210/WebImage.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WebImage.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5E6BD9BD-A9DF-4015-8223-D546DDD53A5D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lesliehan9210/WebImage.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5E6BD9BD-A9DF-4015-8223-D546DDD53A5D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5E6BD9BD-A9DF-4015-8223-D546DDD53A5D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WebImage</string>
+		</dict>
+	</array>
+</dict>
+</plist>

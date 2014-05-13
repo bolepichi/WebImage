@@ -31,4 +31,16 @@
     // Configure the view for the selected state
 }
 
+
+-(void)reigstTapGuest
+{
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(getImageOFTap)];
+    
+    [self.image addGestureRecognizer:tapGesture];
+}
+
+-(void)getImageOFTap{
+     _tapGetAImage (self.image.image);
+}
+
 @end

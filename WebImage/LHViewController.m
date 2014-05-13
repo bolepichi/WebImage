@@ -9,6 +9,8 @@
 #import "LHViewController.h"
 #import "LHCustemCell.h"
 
+
+
 #import <SDWebImage/UIImageView+WebCache.h>
 
 
@@ -21,9 +23,12 @@
 
 @property (nonatomic ,strong)SDImageCache *imageCache;
 
+
+
 @end
 
 @implementation LHViewController
+
 
 - (void)viewDidLoad
 {
@@ -36,59 +41,24 @@
                    @"http://www.qupu123.com/Public/Uploads/geshou/%D5%C5%B9%FA%C8%D9.jpg",
                    @"http://gameonline.yesky.com/cmsimagelist/2008/092/p612j55673go.jpg"];
     
-    
-    UIButton *refreshButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    
-    [refreshButton setTitle:@"刷新" forState:UIControlStateNormal];
-    
-    [refreshButton addTarget:self.tableView action:@selector(reloadData) forControlEvents:UIControlEventTouchUpInside];
-    
-    [refreshButton setFrame:CGRectMake(0, 0, 60, 40)];
-    
- 
-    
-    
-    
-    UIButton *cleanCacheButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    
-    [cleanCacheButton setTitle:@"清楚缓存" forState:UIControlStateNormal];
-    
-    [cleanCacheButton addTarget:self action:@selector(Clean) forControlEvents:UIControlEventTouchUpInside];
-    
-    [cleanCacheButton setFrame:CGRectMake(0, 0, 60, 40)];
-    
-    
-    
-    
-    UIBarButtonItem *leftItem =[[UIBarButtonItem alloc]initWithCustomView:refreshButton];
-    
-    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc]initWithCustomView:cleanCacheButton];
-    
-    [self.navigationItem setRightBarButtonItems:@[leftItem,rightItem] animated:YES];
 
+    
+    
     
   
      _imageCache= [[SDImageCache sharedImageCache] initWithNamespace:@"imageCell"];
     
     
+    
+
 }
 
 
--(void)Clean{
-
-    
-    
-    [_imageCache clearDisk];
-    
-   // [_imageCache clearMemory];
-    
-    
-}
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-   
+
 }
 
 
@@ -119,6 +89,10 @@
         
         // 1.检查缓存中是否由已存在图片
         
+
+        
+     
+        
         if (!image) {
             
             [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES]; //显示请求指示标
@@ -142,6 +116,15 @@
         
     }];
     
+    cell.tapGetAImage =^(UIImage *image){
+        
+        UIImage *image2 = image;
+        
+        NSLog(@"%@",image2);
+        
+        
+    };
+    
     
     return cell;
 }
@@ -150,5 +133,7 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 192.0f;
 }
+
+
 
 @end
